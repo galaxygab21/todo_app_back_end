@@ -14,3 +14,39 @@
 //= require jquery_ujs
 //= require turbolinks
 //= require_tree .
+
+ $(document).ready(function() {
+  $("#add-new-todo-button").click(function(){
+   // Assign the todo description and pomodoro estimate to variables
+
+   var description = $("#new-todo-description")
+   var pomodoroEstimate = $("#new-pomodoro-estimate")
+
+
+   // Append the new todo to the list of todos
+   $("ul").append("<li> <input type='checkbox'/> " + description.val() + " <span class='pomodoro-estimate'>" + pomodoroEstimate.val() + " pomodoros</span> </li>")
+
+   // Clear the input fields for new-todo-description and pomdoro-estimate by entering an empty string as the value
+   description.val("")
+   pomodoroEstimate.val("")
+ })
+})
+
+
+$(document).ready(function() {
+  // Strike through todo when its checkbox is clicked
+  $("ul").on("click", "input[type=checkbox]", function(){
+    $(this).closest("li").toggleClass("completed-todo")
+  })
+})
+
+// Click on a close button to hide the current list item
+var close = document.getElementsByClassName("close");
+var i;
+for (i = 0; i < close.length; i++) {
+  close[i].onclick = function() {
+    var div = this.parentElement;
+    div.style.display = "none";
+  }
+}
+
