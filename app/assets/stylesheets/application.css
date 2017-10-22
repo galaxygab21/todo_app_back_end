@@ -26,7 +26,7 @@ body{
 .img-circle {
     border-radius: 50%;
 }
-
+s
 button {
   background: none;
   border: 0px;
@@ -115,14 +115,14 @@ input[type="text"], input[type="number"]{
 #add-new-todo-button{
   font-size: 20px;
   text-align: center;
-  color: ##fd746c;
+  color: #fd746c;
   outline: none;
   border-style: none;
   padding: 10px;
   border-radius: 3px;
-  box-shadow: 2px 2px 1px ##E0EAFC;
+  box-shadow: 2px 2px 1px #E0EAFC;
   display: block;
-  background-color: ##CFDEF3;
+  background-color: #CFDEF3;
   margin-top: 10px;
 }
 
