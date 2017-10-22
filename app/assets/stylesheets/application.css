@@ -13,19 +13,33 @@
  *= require_tree .
  *= require_self
  */
+ 
+
+ 
 body{
- color: #00bfff;
+ color: #F0FFFF;
  background-image: url("https://s3-media3.fl.yelpcdn.com/bphoto/f9mnKMrF_aLZZ4_1dqkD0A/o.jpg");
  background-size: cover;
- font-family: sans-serif;
+ font-family: Pacifico;
 }
 
 .img-circle {
     border-radius: 50%;
 }
 
+button {
+  background: none;
+  border: 0px;
+  color: #FFFAFA;
+  font-size: 15px;
+  width: 60px;
+  margin: 10px 0 0;
+  font-family: Lato, Pacifico;
+  cursor: pointer;
+}
+
 h1{
-  color: #000000;
+  color: #F8F8FF;
   text-align: center;
   margin-top: 20px;
 }
@@ -43,19 +57,19 @@ img{
 }
 
 .close:hover {
-  background-color: #f44336;
-  color: white;
+  background-color: #FFF0F5;
+  color: purple;
 }
 
 ul{
   list-style: none;
   font-size: 20px;
-  background-color: #00ffff;
+  background-color: #FFC371;
   padding: 20px;
   width: 60%;
   margin: 0 auto;
   border-radius: 5px;
-  box-shadow: 1px 1px 1px #90A4AE;
+  box-shadow: 1px 1px 1px #FF5F6D;
 }
 
 li{
@@ -64,13 +78,13 @@ li{
 }
 
 li:hover{
-  background-color: #6495ed;
+  background-color: #CB3066;
   border-radius: 3px;
 }
 
 a{
   text-decoration: none;
-  color: #424242;
+  color: #F0F8FF;
   vertical-align: middle;
 }
 
@@ -86,13 +100,13 @@ input[type="text"], input[type="number"]{
   border-style: none;
   padding: 5px;
   border-radius: 3px;
-  box-shadow: 1px 1px 1px #90A4AE;
+  box-shadow: 1px 1px 1px #F8F8FF;
 }
 
 .pomodoro-estimate{
   font-weight: bold;
-  color: #e6e6fa;
-  background-color: #6a5acd;
+  color: #f7ff00;
+  background-color: #db36a4;
   border-radius: 50px;
   font-size: 14px;
   padding: 5px 10px 5px 10px;
@@ -101,19 +115,19 @@ input[type="text"], input[type="number"]{
 #add-new-todo-button{
   font-size: 20px;
   text-align: center;
-  color: #FFF;
+  color: ##fd746c;
   outline: none;
   border-style: none;
   padding: 10px;
   border-radius: 3px;
-  box-shadow: 2px 2px 1px #90A4AE;
+  box-shadow: 2px 2px 1px ##E0EAFC;
   display: block;
-  background-color: #03A9F4;
+  background-color: ##CFDEF3;
   margin-top: 10px;
 }
 
 #add-new-todo-button:active{
-  box-shadow: 1px 1px 1px #90A4AE;
+  box-shadow: 1px 1px 1px #E5CCFF;
 }
 
 .completed-todo{
@@ -129,42 +143,42 @@ input[type=checkbox]:checked + label {
 }
 
 .cbox1 {
-  color:blue;
+  color:#CCE5FF;
   text-decoration: line-through;
 }
 
 .cbox2 {
-  color:blue;
+  color:#CCE5FF;
   text-decoration: line-through;
 }
 
 .cbox3 {
-  color:blue;
+  color:#CCE5FF;
   text-decoration: line-through;
 }
 
 .cbox4 {
-  color:blue;
+  color:#CCE5FF;
   text-decoration: line-through;
 }
 
 .cbox5 {
-  color:blue;
+  color:#CCE5FF;
   text-decoration: line-through;
 }
 
 .cbox6 {
-  color:blue;
+  color:#CCE5FF;
   text-decoration: line-through;
 }
 
 .cbox7 {
-  color:blue;
+  color:#CCE5FF;
   text-decoration: line-through;
 }
 
 .cbox8 {
-  color:blue;
+  color:#CCE5FF;
   text-decoration: line-through;
 }
 
